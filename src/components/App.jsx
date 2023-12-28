@@ -3,7 +3,6 @@ import React, { useState } from 'react';
  import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
  import { Section } from './Section/Section';
  
-
  export function App() {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
